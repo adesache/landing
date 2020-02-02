@@ -1,7 +1,7 @@
 .cards {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 .card {
   width: 250px;
@@ -18,5 +18,35 @@
 
 .card p {
     opacity: .5;
-    font-size: 13px
+    font-size: 16px
 }
+
+.user-story-cards {
+  width: 100%;
+  margin-bottom: 50px;
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgb(230,230,230);
+  background-color: white;
+}
+
+.user-story-card {
+width: 96%;
+height: 60px;
+border-bottom: 1px solid rgb(230,230,230);
+padding: 6px 20px;
+margin: -1px 0px;
+display: flex;
+align-items: center;
+}
+
+.user-story-card i {
+  color: #6ad58b;
+  padding-right: 20px;
+
+}
+.user-story-card p {
+    opacity: .5;
+    font-size: 14px;
+    padding: 10 px;
+}
+
